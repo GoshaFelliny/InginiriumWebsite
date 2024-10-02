@@ -1,0 +1,511 @@
+
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    #sing_up{
+        color: white;
+        background-color: #813f8e;
+    }
+
+    .license{
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .btn{
+        border: white;
+        padding: 20px;
+        display: block;
+    }
+
+
+
+    .btn button{
+        margin-left: 100px;
+        width: 200px;
+        height: 49px;
+        border-radius: 25px;
+    }
+
+    .btn a{
+        margin-left: 100px;
+        width: 200px;
+        height: 49px;
+        border-radius: 25px;
+        border: #000000 solid 1px;
+    }
+
+
+
+    h2{
+        font-family: 'PFAgoraSlabPro', Arial;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    /* НАВИГАЦИЯ */
+
+    .nav{
+        padding-left: 300px;
+        padding-right: 300px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .menu{
+
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .menu a{
+        margin-right: 45px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        vertical-align: bottom;
+        border-radius: 25px;
+        line-height: 45px;
+        border: 1px solid transparent;
+        border-radius: 23px;
+        text-align: center;
+        color: #1e0f00;
+        padding-top: 2px;
+    }
+
+
+    .menu a:hover{
+        border: #000000 1px solid;
+    }
+
+
+
+    .baner {
+        width: 100%;
+        height: 450px;
+        background-color: rgb(254, 229, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .baner-content {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: 100%;
+        position: relative; /* Изменено на relative */
+      }
+      
+      .baner-slide {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      
+      .control-left,
+      .control-right {
+        height: 100%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .control-left {
+        left: 0;
+      }
+      
+      .control-right {
+        right: 0;
+      }
+      
+      .baner-content-text-head {
+        font-family: 'PFAgoraSlabPro', Arial;
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+      }
+      
+      .baner-content-text-body {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        font-weight: medium;
+        font-size: 26px;
+        line-height: 30px;
+        padding: 20px 0;
+      }
+      
+      .baner-btn {
+        display: block;
+        line-height: 45px;
+        border: 1px solid #813f8e;
+        border-radius: 23px;
+        background-color: #813f8e;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 200px;
+        outline: none;
+      }
+
+      .baner-btn a{
+        display: block;
+        line-height: 45px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+
+      
+      .baner-indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; /* Отступ сверху для индикаторов */
+        position: relative; /* Изменено на relative */
+        bottom: 0; /* Положение индикаторов внизу */
+        z-index: 2; /* Индикаторы выше других элементов */
+      }
+      
+      .indicator {
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .indicator.active {
+        background-color: #de1212; /* Цвет активного индикатора */
+      }
+
+    .separating-text{
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .progress {
+        margin: 48px 400px 48px 400px;
+        display: flex;
+        flex-wrap: nowrap;
+        min-height: 330px;
+        background: url(steps.svg) center bottom no-repeat;
+        background-size: contain;
+    }
+
+
+    .steps{
+        padding: 20px;
+    }
+
+    .s1 {
+        padding-top: 160px;
+    }
+
+    .s1 .title{
+        color: #EDAC1A;
+    }
+
+    .s2 {
+        padding-top: 110px;
+    }
+
+    .s2 .title{
+        color: #E06E37;
+    }
+
+    .s3 {
+        padding-top: 60px;
+    }
+
+    .s3 .title{
+        color: #E06E37;
+    }
+
+    .s4 {
+        padding-top: 30px;
+    }
+
+    .s4  .title{
+        color: #E06E37;
+    }
+
+    .s5 {
+        padding-top: 0px;
+        min-width: 330px;
+        display: flex;
+    }
+
+    .s5  .title{
+        color: #E06E37;
+    }
+
+    .cls{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;   
+    }
+
+    .title{
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .desc{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+    .why {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 48px 400px 48px 400px;
+    }
+
+    .why img{
+        margin: auto;
+        display: flex;
+    }
+
+
+    .why-block{
+        align-items: centers;
+        max-width: 150px;
+        padding: 25px;
+        display: block;
+    }
+
+    .why-text{
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    .course{ 
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 380px);
+        gap: 15px;
+        
+    }
+
+
+    .grid-elem{
+        height: 333px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .grid-elem:hover{
+        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    }
+
+    .right-content{
+        padding-left: 15px;
+    }
+
+    .write-course{
+        width: 285px;
+        height: 430px;
+        background-color: rgb(190, 237, 2);
+    }
+
+    .more-course{
+        width: 285px;
+        height: 264px;
+        margin-top: 10px;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .course-title{
+        text-align: center;
+        padding: 10px 0 30px 0;
+        vertical-align: middle;
+        margin: 0 15px;
+        border-bottom: 1px solid #cccccc;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .bottom-title {
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ceil{
+        padding-top: 75px;
+        background: rgb(247, 247, 247);
+    }
+
+    .ceil-content-up{ 
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 400px 0px 400px;
+    }
+
+
+    .ceil-title{
+        font-family: 'PFAgoraSlabPro', Arial;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+
+    ul li {
+        padding: 7px 0;
+        list-style-image: url(darr.png);
+        list-style-position: inside;
+    }
+
+    .ceil-content-down{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ceil-content-down img{
+        padding: 40px;
+        display: block;
+    }
+
+    .video{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .qa{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .img-qa{
+        background: url(qa.png) center no-repeat;
+        min-width: 226px;
+        min-height: 260px;
+    }
+
+    .text-qa{
+        padding: 60px;
+    }
+
+    .title-qa{
+        font-family: 'PFAgoraSlabPro', Arial;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .title-des{
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+    .phone-qa{
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer{
+        background: rgb(247, 247, 247);
+    }
+
+    .footer{
+        padding: 20px;
+        margin: 30px 20% 0px 20%;
+    }
+
+    .footer-cp{
+        display: flex;
+        
+    }
+
+    .footer-cp-title{
+        line-height: 26px;
+        vertical-align: middle;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    .footer-links{ 
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-links a{ 
+        margin-top: 30px;
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+    }
+
+    .footer-links a:hover{ 
+        text-decoration: underline;
+        
+    }
+
+    .footer-social-media{
+    display: flex;
+
+    }
+
+    .footer-social-media a{
+        display: block;
+        margin: 15px;
+    }
